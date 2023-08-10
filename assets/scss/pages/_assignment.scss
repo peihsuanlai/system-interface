@@ -1,0 +1,39 @@
+.main-assignment {
+  margin-left: 296px;
+  @include padding(32px);
+}
+
+.comment-number {
+  color: $gray-600;
+}
+
+.list-group {
+  .name {
+    color: $gray-600;
+  }
+}
+
+.assignment {
+  .img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .date {
+    color: $gray-600;
+  }
+  .card-text,
+  .download-btn,
+  hr,
+  .suggestion {
+    margin-left: 56px;
+    margin-right: 32px;
+  }
+  .reply-body {
+    min-height: 270px;
+    .reply-text {
+      color: $gray-400;
+    }
+  }
+}

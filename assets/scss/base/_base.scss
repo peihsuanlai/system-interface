@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: $gray-900;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: $gray-900;
+  &:hover {
+    color: $success;
+  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}

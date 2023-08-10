@@ -1,0 +1,55 @@
+.main-admin {
+    margin-left: 296px;
+    @include padding(32px);
+    .add {
+      color: $success;
+    }
+  }
+  
+  .pagination-container {
+    margin-top: 63px;
+    a:hover {
+      color: $white !important;
+      background-color: $success !important;
+    }
+  }
+  
+  td {
+    .view-modal {
+      @include padding(32px, 32px);
+    }
+    .img-container {
+      width: 141px;
+      img {
+        height: 170px;
+        object-fit: cover;
+      }
+    }
+    .email {
+      color: $gray-600;
+    }
+    .text {
+      background-color: $gray-100;
+    }
+    .admin-check {
+      margin-top: 32px;
+    }
+    .admin-check-btn {
+      @include padding(8px, 32px);
+    }
+  
+    .expand_more {
+      display: none;
+    }
+    .expand_less {
+      display: inline-block;
+    }
+    .collapsed .expand_more {
+      display: inline-block;
+    }
+  
+    .collapsed .expand_less {
+      display: none;
+    }
+  }
+  

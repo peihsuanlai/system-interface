@@ -1,0 +1,14 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap");
+
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/utilities";
+@import "./base/base";
+
+@import "./layout/sideMenu";
+
+@import "./pages/index";
+@import "./pages/assignment";

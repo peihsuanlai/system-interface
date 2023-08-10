@@ -1,0 +1,43 @@
+.nav {
+  background-color: $gray-100;
+  min-width: 296px;
+  min-height: 100vh;
+  @include padding(32px, 32px);
+  span {
+    vertical-align: middle;
+  }
+  .img-container {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .email {
+    color: $gray-600;
+  }
+}
+
+.nav-link {
+  @include padding(13px, 13px);
+  &:hover {
+    color: $success !important;
+  }
+}
+
+.nav-link.active::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 4px;
+  height: 32px;
+  background-color: $success;
+}
+
+h1 a {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week5/logo-ANSWER.svg?raw=true");
+  width: 150px;
+  height: 40px;
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
