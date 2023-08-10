@@ -5,13 +5,13 @@ window.addEventListener("load", () => {
   let adminPage = document.querySelector("#adminPage");
   let assignmentPage = document.querySelector("#assignmentPage");
   if (
-    window.location.pathname == "/system-interface/pages/index.html"
+    window.location.pathname == "/system-interface/index.html"
   ) {
     adminPage.classList.add("active");
   }
   if (
     window.location.pathname ==
-    "/system-interface/pages/assignment.html"
+    "/system-interface/assignment.html"
   ) {
     assignmentPage.classList.add("active");
   }
